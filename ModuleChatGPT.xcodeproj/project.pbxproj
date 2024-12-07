@@ -7,18 +7,49 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C8A8BE4C2B35B5D100E6FB94 /* RelatedTopicsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A8BE4B2B35B5D100E6FB94 /* RelatedTopicsView.swift */; };
+		C8A8BE4E2B35B8F500E6FB94 /* DefinitionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A8BE4D2B35B8F500E6FB94 /* DefinitionView.swift */; };
+		C8A8BE502B35BDA200E6FB94 /* ArticleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A8BE4F2B35BDA200E6FB94 /* ArticleView.swift */; };
+		C8A8BE522B35C28C00E6FB94 /* ExpandedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A8BE512B35C28C00E6FB94 /* ExpandedView.swift */; };
+		C8A8BE542B35C58600E6FB94 /* SummarizedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A8BE532B35C58600E6FB94 /* SummarizedView.swift */; };
+		C8A8BE562B35C8A100E6FB94 /* ComparisonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A8BE552B35C8A100E6FB94 /* ComparisonView.swift */; };
+		C8A8BE582B35CCFF00E6FB94 /* NextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A8BE572B35CCFF00E6FB94 /* NextView.swift */; };
+		C8A8BE5A2B35D0FE00E6FB94 /* AffirmationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A8BE592B35D0FE00E6FB94 /* AffirmationView.swift */; };
+		C8A8BE5D2B35D87100E6FB94 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A8BE5C2B35D87100E6FB94 /* Constants.swift */; };
+		C8A8BE612B35DA8600E6FB94 /* EmailHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A8BE602B35DA8600E6FB94 /* EmailHelper.swift */; };
 		C8F781062B3472B30097236C /* ModuleChatGPTApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F781052B3472B30097236C /* ModuleChatGPTApp.swift */; };
-		C8F781082B3472B30097236C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F781072B3472B30097236C /* ContentView.swift */; };
 		C8F7810A2B3472B40097236C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8F781092B3472B40097236C /* Assets.xcassets */; };
 		C8F7810D2B3472B40097236C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8F7810C2B3472B40097236C /* Preview Assets.xcassets */; };
+		C8F781142B34737F0097236C /* ModulesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F781132B34737F0097236C /* ModulesView.swift */; };
+		C8F781162B3473940097236C /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F781152B3473940097236C /* SettingsView.swift */; };
+		C8F781182B3474910097236C /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F781172B3474910097236C /* AppModel.swift */; };
+		C8F7811B2B3475B10097236C /* OpenAISwift in Frameworks */ = {isa = PBXBuildFile; productRef = C8F7811A2B3475B10097236C /* OpenAISwift */; };
+		C8F7811E2B347AC90097236C /* NewChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F7811D2B347AC90097236C /* NewChatView.swift */; };
+		C8F781202B34B65D0097236C /* ConceptView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F7811F2B34B65D0097236C /* ConceptView.swift */; };
+		C8F781242B34BB9E0097236C /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F781232B34BB9E0097236C /* ResultView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C8A8BE4B2B35B5D100E6FB94 /* RelatedTopicsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelatedTopicsView.swift; sourceTree = "<group>"; };
+		C8A8BE4D2B35B8F500E6FB94 /* DefinitionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefinitionView.swift; sourceTree = "<group>"; };
+		C8A8BE4F2B35BDA200E6FB94 /* ArticleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleView.swift; sourceTree = "<group>"; };
+		C8A8BE512B35C28C00E6FB94 /* ExpandedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandedView.swift; sourceTree = "<group>"; };
+		C8A8BE532B35C58600E6FB94 /* SummarizedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummarizedView.swift; sourceTree = "<group>"; };
+		C8A8BE552B35C8A100E6FB94 /* ComparisonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComparisonView.swift; sourceTree = "<group>"; };
+		C8A8BE572B35CCFF00E6FB94 /* NextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextView.swift; sourceTree = "<group>"; };
+		C8A8BE592B35D0FE00E6FB94 /* AffirmationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AffirmationView.swift; sourceTree = "<group>"; };
+		C8A8BE5C2B35D87100E6FB94 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		C8A8BE602B35DA8600E6FB94 /* EmailHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EmailHelper.swift; path = ../../../../Downloads/EmailHelper.swift; sourceTree = "<group>"; };
 		C8F781022B3472B30097236C /* ModuleChatGPT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ModuleChatGPT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8F781052B3472B30097236C /* ModuleChatGPTApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuleChatGPTApp.swift; sourceTree = "<group>"; };
-		C8F781072B3472B30097236C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C8F781092B3472B40097236C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C8F7810C2B3472B40097236C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C8F781132B34737F0097236C /* ModulesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModulesView.swift; sourceTree = "<group>"; };
+		C8F781152B3473940097236C /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		C8F781172B3474910097236C /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
+		C8F7811D2B347AC90097236C /* NewChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewChatView.swift; sourceTree = "<group>"; };
+		C8F7811F2B34B65D0097236C /* ConceptView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConceptView.swift; sourceTree = "<group>"; };
+		C8F781232B34BB9E0097236C /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,12 +57,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8F7811B2B3475B10097236C /* OpenAISwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C8A8BE5B2B35D85000E6FB94 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				C8A8BE5C2B35D87100E6FB94 /* Constants.swift */,
+				C8A8BE602B35DA8600E6FB94 /* EmailHelper.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 		C8F780F92B3472B30097236C = {
 			isa = PBXGroup;
 			children = (
@@ -52,7 +93,12 @@
 			isa = PBXGroup;
 			children = (
 				C8F781052B3472B30097236C /* ModuleChatGPTApp.swift */,
-				C8F781072B3472B30097236C /* ContentView.swift */,
+				C8F781132B34737F0097236C /* ModulesView.swift */,
+				C8F781152B3473940097236C /* SettingsView.swift */,
+				C8A8BE5B2B35D85000E6FB94 /* Utilities */,
+				C8F781222B34BB320097236C /* View Components */,
+				C8F7811C2B347AAF0097236C /* Modules Views */,
+				C8F781172B3474910097236C /* AppModel.swift */,
 				C8F781092B3472B40097236C /* Assets.xcassets */,
 				C8F7810B2B3472B40097236C /* Preview Content */,
 			);
@@ -65,6 +111,31 @@
 				C8F7810C2B3472B40097236C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C8F7811C2B347AAF0097236C /* Modules Views */ = {
+			isa = PBXGroup;
+			children = (
+				C8F7811D2B347AC90097236C /* NewChatView.swift */,
+				C8F7811F2B34B65D0097236C /* ConceptView.swift */,
+				C8A8BE4B2B35B5D100E6FB94 /* RelatedTopicsView.swift */,
+				C8A8BE4D2B35B8F500E6FB94 /* DefinitionView.swift */,
+				C8A8BE4F2B35BDA200E6FB94 /* ArticleView.swift */,
+				C8A8BE512B35C28C00E6FB94 /* ExpandedView.swift */,
+				C8A8BE532B35C58600E6FB94 /* SummarizedView.swift */,
+				C8A8BE552B35C8A100E6FB94 /* ComparisonView.swift */,
+				C8A8BE572B35CCFF00E6FB94 /* NextView.swift */,
+				C8A8BE592B35D0FE00E6FB94 /* AffirmationView.swift */,
+			);
+			path = "Modules Views";
+			sourceTree = "<group>";
+		};
+		C8F781222B34BB320097236C /* View Components */ = {
+			isa = PBXGroup;
+			children = (
+				C8F781232B34BB9E0097236C /* ResultView.swift */,
+			);
+			path = "View Components";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +154,9 @@
 			dependencies = (
 			);
 			name = ModuleChatGPT;
+			packageProductDependencies = (
+				C8F7811A2B3475B10097236C /* OpenAISwift */,
+			);
 			productName = ModuleChatGPT;
 			productReference = C8F781022B3472B30097236C /* ModuleChatGPT.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +185,9 @@
 				Base,
 			);
 			mainGroup = C8F780F92B3472B30097236C;
+			packageReferences = (
+				C8F781192B3475B10097236C /* XCRemoteSwiftPackageReference "OpenAISwift" */,
+			);
 			productRefGroup = C8F781032B3472B30097236C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,8 +214,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C8F781082B3472B30097236C /* ContentView.swift in Sources */,
+				C8A8BE5A2B35D0FE00E6FB94 /* AffirmationView.swift in Sources */,
+				C8A8BE4C2B35B5D100E6FB94 /* RelatedTopicsView.swift in Sources */,
+				C8F781162B3473940097236C /* SettingsView.swift in Sources */,
+				C8F781202B34B65D0097236C /* ConceptView.swift in Sources */,
+				C8A8BE542B35C58600E6FB94 /* SummarizedView.swift in Sources */,
+				C8A8BE522B35C28C00E6FB94 /* ExpandedView.swift in Sources */,
+				C8A8BE562B35C8A100E6FB94 /* ComparisonView.swift in Sources */,
+				C8A8BE5D2B35D87100E6FB94 /* Constants.swift in Sources */,
+				C8F781142B34737F0097236C /* ModulesView.swift in Sources */,
+				C8A8BE582B35CCFF00E6FB94 /* NextView.swift in Sources */,
 				C8F781062B3472B30097236C /* ModuleChatGPTApp.swift in Sources */,
+				C8F7811E2B347AC90097236C /* NewChatView.swift in Sources */,
+				C8A8BE4E2B35B8F500E6FB94 /* DefinitionView.swift in Sources */,
+				C8A8BE612B35DA8600E6FB94 /* EmailHelper.swift in Sources */,
+				C8A8BE502B35BDA200E6FB94 /* ArticleView.swift in Sources */,
+				C8F781242B34BB9E0097236C /* ResultView.swift in Sources */,
+				C8F781182B3474910097236C /* AppModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +372,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -309,6 +402,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -344,6 +438,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C8F781192B3475B10097236C /* XCRemoteSwiftPackageReference "OpenAISwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/adamrushy/OpenAISwift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.4.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C8F7811A2B3475B10097236C /* OpenAISwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C8F781192B3475B10097236C /* XCRemoteSwiftPackageReference "OpenAISwift" */;
+			productName = OpenAISwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C8F780FA2B3472B30097236C /* Project object */;
 }
